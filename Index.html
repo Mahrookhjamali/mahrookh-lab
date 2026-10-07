@@ -1,0 +1,1798 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Mahrookh Lab</title>
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+</head>
+
+
+<body>
+
+
+    <!-- ======================================================
+         LANDING SCREEN
+         ====================================================== -->
+
+    <main id="landing" class="lab">
+
+        <section class="hero">
+
+            <p class="eyebrow">
+                WELCOME TO
+            </p>
+
+            <h1>
+                Mahrookh <span>Lab</span>
+            </h1>
+
+            <p class="tagline">
+                Don't just explore. Try something.
+            </p>
+
+            <button id="enterLab">
+                ENTER THE LAB
+            </button>
+
+        </section>
+
+    </main>
+
+<!-- ======================================================
+     VISITOR IDENTITY
+     ====================================================== -->
+
+<section id="visitorGate" class="visitor-gate">
+
+    <div class="visitor-gate-card">
+
+        <span class="visitor-symbol">✦</span>
+
+        <p class="eyebrow">
+            BEFORE YOU ENTER
+        </p>
+
+        <h2>
+          Before you step inside...
+      </h2>
+
+    <p class="visitor-description">
+      Tell us what we should call you —
+      or quietly remain anonymous.
+    </p>
+
+        <!-- NAME -->
+
+        <div class="visitor-field">
+
+            <label for="visitorName">
+                YOUR NAME
+            </label>
+
+            <input
+                type="text"
+                id="visitorName"
+                placeholder="Enter your name"
+                maxlength="30"
+            >
+
+        </div>
+
+
+        <!-- ANONYMOUS -->
+
+        <label class="anonymous-option">
+
+            <input
+                type="checkbox"
+                id="anonymousVisitor"
+            >
+
+            <span>
+                Keep me Anonymous
+            </span>
+
+        </label>
+
+
+        <button
+            id="continueToLab"
+            class="primary-button visitor-enter"
+        >
+            ENTER THE LAB →
+        </button>
+
+    </div>
+
+</section>
+
+    <!-- ======================================================
+         LAB DASHBOARD
+         ====================================================== -->
+
+    <main id="dashboard" class="dashboard">
+
+        <header class="lab-header">
+
+            <div>
+
+                <p class="eyebrow">
+                    MAHROOKH LAB
+                </p>
+
+                <h2>
+                    Choose where curiosity takes you.
+                </h2>
+
+            </div>
+
+
+            <button
+                id="backButton"
+                class="back-button"
+            >
+                ← Exit
+            </button>
+
+        </header>
+
+
+
+        <section class="lab-grid">
+
+
+            <!-- ==================================================
+                 CREATE
+                 ================================================== -->
+
+            <article class="lab-card create-card">
+
+                <span class="card-number">
+                    01
+                </span>
+
+                <div class="card-icon">
+                    ✦
+                </div>
+
+                <h3>
+                    Create
+                </h3>
+
+                <p>
+                    Build a little world of your own.
+                </p>
+
+                <button class="explore-button">
+                    Open →
+                </button>
+
+            </article>
+
+
+
+            <!-- ==================================================
+                 DISCOVER
+                 ================================================== -->
+
+            <article class="lab-card discover-card">
+
+                <span class="card-number">
+                    02
+                </span>
+
+                <div class="card-icon">
+                    ◌
+                </div>
+
+                <h3>
+                    Discover
+                </h3>
+
+                <p>
+                    A few choices might reveal more than you expect.
+                </p>
+
+                <button class="explore-button">
+                    Open →
+                </button>
+
+            </article>
+
+
+
+            <!-- ==================================================
+                 DECODE
+                 ================================================== -->
+
+            <article class="lab-card analyze-card">
+
+                <span class="card-number">
+                    03
+                </span>
+
+                <div class="card-icon">
+                    ⌁
+                </div>
+
+                <h3>
+                    Decode
+                </h3>
+
+                <p>
+                    Unscramble the words.
+                    Trust your instincts.
+                    See how far you can get.                 
+                </p>
+
+                <button class="explore-button">
+                    Open →
+                </button>
+
+            </article>
+
+
+
+            <!-- ==================================================
+                 PLAY
+                 ================================================== -->
+
+            <article class="lab-card play-card">
+
+                <span class="card-number">
+                    04
+                </span>
+
+                <div class="card-icon">
+                    ◈
+                </div>
+
+                <h3>
+                    Play
+                </h3>
+
+                <p>
+                    Spot the connection.
+                    Complete the pattern.
+                    Trust your logic.              
+                </p>
+
+                <button class="explore-button">
+                    Open →
+                </button>
+
+            </article>
+
+
+
+            <!-- ==================================================
+                 LEAVE A NOTE
+                 ================================================== -->
+
+            <article class="lab-card note-card">
+
+                <span class="card-number">
+                    05
+                </span>
+
+                <div class="card-icon">
+                    ✎
+                </div>
+
+                <h3>
+                    Leave a Note
+                </h3>
+
+                <p>
+                    Leave a thought, a hello,
+                    or a little trace of your visit.
+                </p>
+
+                <button class="explore-button">
+                    Open →
+                </button>
+
+            </article>
+
+
+        </section>
+
+
+
+        <!-- ======================================================
+             FOOTER
+             ====================================================== -->
+
+        <footer class="lab-footer">
+
+            <p>
+                Built with curiosity, code & a little chaos. 🧪
+            </p>
+
+        </footer>
+
+    </main>
+
+
+
+    <!-- ======================================================
+         CREATE SECTION
+         ====================================================== -->
+
+    <section
+        id="createSection"
+        class="experiment-section"
+    >
+
+        <button
+            id="backToLab"
+            class="back-button"
+        >
+            ← Back to Lab
+        </button>
+
+
+        <div class="experiment-heading">
+
+            <p class="eyebrow">
+                CREATE / 01
+            </p>
+
+            <h2>
+                Café Builder
+            </h2>
+
+            <p>
+                Bring your imaginary café to life.
+            </p>
+
+        </div>
+
+
+
+        <div class="cafe-builder">
+
+
+            <!-- FORM -->
+
+            <div class="builder-form">
+
+                <label>
+                    Café Name
+                </label>
+
+                <input
+                    type="text"
+                    id="cafeName"
+                    placeholder="e.g. Moonlight Chai"
+                >
+
+
+                <label>
+                    Your Drink
+                </label>
+
+                <select id="drink">
+
+                    <option value="">
+                        Choose a drink
+                    </option>
+
+                    <option>
+                        Masala Chai
+                    </option>
+
+                    <option>
+                        Kashmiri Kahwa
+                    </option>
+
+                    <option>
+                        Hot Chocolate
+                    </option>
+
+                    <option>
+                        Cold Coffee
+                    </option>
+
+                    <option>
+                        Green Tea
+                    </option>
+
+                </select>
+
+
+                <label>
+                    Your Dessert
+                </label>
+
+                <select id="dessert">
+
+                    <option value="">
+                        Choose a dessert
+                    </option>
+
+                    <option>
+                        Chocolate Cake
+                    </option>
+
+                    <option>
+                        Lotus Cheesecake
+                    </option>
+
+                    <option>
+                        Brownie
+                    </option>
+
+                    <option>
+                        Cookies
+                    </option>
+
+                    <option>
+                        Cupcake
+                    </option>
+
+                </select>
+
+
+                <label>
+                    Café Vibe
+                </label>
+
+                <select id="vibe">
+
+                    <option value="">
+                        Choose a vibe
+                    </option>
+
+                    <option>
+                        Cozy & Warm
+                    </option>
+
+                    <option>
+                        Soft & Dreamy
+                    </option>
+
+                    <option>
+                        Minimal & Elegant
+                    </option>
+
+                    <option>
+                        Dark & Mysterious
+                    </option>
+
+                    <option>
+                        Playful & Colorful
+                    </option>
+
+                </select>
+
+
+                <label>
+                    Music
+                </label>
+
+                <select id="music">
+
+                    <option value="">
+                        Choose your music
+                    </option>
+
+                    <option>
+                        Soft Lofi
+                    </option>
+
+                    <option>
+                        Old Bollywood
+                    </option>
+
+                    <option>
+                        Urdu Poetry
+                    </option>
+
+                    <option>
+                        Rain Sounds
+                    </option>
+
+                    <option>
+                        No Music
+                    </option>
+
+                </select>
+
+
+                <button
+                    id="generateCafe"
+                    class="generate-button"
+                >
+                    GENERATE MY CAFÉ ✦
+                </button>
+
+            </div>
+
+
+
+            <!-- RESULT -->
+
+            <div
+                id="cafeResult"
+                class="cafe-result"
+            >
+
+                <p class="result-placeholder">
+                    Your café will appear here.
+                </p>
+
+
+                <button
+                    id="saveCafe"
+                    class="save-button"
+                >
+                    SAVE MY CAFÉ ♡
+                </button>
+
+
+                <p
+                    id="savedMessage"
+                    class="saved-message"
+                ></p>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ======================================================
+         DISCOVER SECTION
+         ====================================================== -->
+
+    <section
+        id="discoverSection"
+        class="experiment-section"
+    >
+
+        <button
+            id="backFromDiscover"
+            class="back-button"
+        >
+            ← Back to Lab
+        </button>
+
+
+        <div class="experiment-header">
+
+            <p class="eyebrow">
+                DISCOVER
+            </p>
+
+            <h2>
+                What kind of explorer are you?
+            </h2>
+
+            <p>
+                No right answers. Just choose what feels most like you.
+            </p>
+
+        </div>
+
+
+
+        <div class="quiz-container">
+
+
+            <!-- QUESTION 1 -->
+
+            <div class="quiz-question">
+
+                <h3>
+                    01. You find a mysterious door in the Lab. What do you do?
+                </h3>
+
+
+                <label>
+
+                    <input
+                        type="radio"
+                        name="q1"
+                        value="curious"
+                    >
+
+                    <span>
+                        🔎 Try to find out what's behind it.
+                    </span>
+
+                </label>
+
+
+                <label>
+
+                    <input
+                        type="radio"
+                        name="q1"
+                        value="creator"
+                    >
+
+                    <span>
+                        🎨 Imagine what the room could look like.
+                    </span>
+
+                </label>
+
+
+                <label>
+
+                    <input
+                        type="radio"
+                        name="q1"
+                        value="solver"
+                    >
+
+                    <span>
+                        🧩 Look for clues before opening it.
+                    </span>
+
+                </label>
+
+
+                <label>
+
+                    <input
+                        type="radio"
+                        name="q1"
+                        value="observer"
+                    >
+
+                    <span>
+                        🌙 Stand back and quietly observe.
+                    </span>
+
+                </label>
+
+
+                <label>
+
+                    <input
+                        type="radio"
+                        name="q1"
+                        value="experimenter"
+                    >
+
+                    <span>
+                        ⚡ Open it and see what happens!
+                    </span>
+
+                </label>
+
+            </div>
+
+
+
+            <!-- QUESTION 2 -->
+
+            <div class="quiz-question">
+
+                <h3>
+                    02. You discover a button that says “DON'T PRESS.”
+                </h3>
+
+
+                <label>
+
+                    <input
+                        type="radio"
+                        name="q2"
+                        value="curious"
+                    >
+
+                    <span>
+                        🔎 I need to know why it says that.
+                    </span>
+
+                </label>
+
+
+                <label>
+
+                    <input
+                        type="radio"
+                        name="q2"
+                        value="creator"
+                    >
+
+                    <span>
+                        🎨 I'd imagine all the possible things it could do.
+                    </span>
+
+                </label>
+
+
+                <label>
+
+                    <input
+                        type="radio"
+                        name="q2"
+                        value="solver"
+                    >
+
+                    <span>
+                        🧩 I'd investigate before touching it.
+                    </span>
+
+                </label>
+
+
+                <label>
+
+                    <input
+                        type="radio"
+                        name="q2"
+                        value="observer"
+                    >
+
+                    <span>
+                        🌙 I'd probably leave it alone and watch others.
+                    </span>
+
+                </label>
+
+
+                <label>
+
+                    <input
+                        type="radio"
+                        name="q2"
+                        value="experimenter"
+                    >
+
+                    <span>
+                        ⚡ Press it. Obviously. 😭
+                    </span>
+
+                </label>
+
+            </div>
+
+
+
+            <!-- QUESTION 3 -->
+
+            <div class="quiz-question">
+
+                <h3>
+                    03. You get a completely free rainy day. What sounds best?
+                </h3>
+
+
+                <label>
+
+                    <input
+                        type="radio"
+                        name="q3"
+                        value="curious"
+                    >
+
+                    <span>
+                        🔎 Explore somewhere I've never been.
+                    </span>
+
+                </label>
+
+
+                <label>
+
+                    <input
+                        type="radio"
+                        name="q3"
+                        value="creator"
+                    >
+
+                    <span>
+                        🎨 Draw, build, bake, write or make something.
+                    </span>
+
+                </label>
+
+
+                <label>
+
+                    <input
+                        type="radio"
+                        name="q3"
+                        value="solver"
+                    >
+
+                    <span>
+                        🧩 Play a puzzle or figure out something challenging.
+                    </span>
+
+                </label>
+
+
+                <label>
+
+                    <input
+                        type="radio"
+                        name="q3"
+                        value="observer"
+                    >
+
+                    <span>
+                        🌙 Sit somewhere cozy and enjoy the rain.
+                    </span>
+
+                </label>
+
+
+                <label>
+
+                    <input
+                        type="radio"
+                        name="q3"
+                        value="experimenter"
+                    >
+
+                    <span>
+                        ⚡ Try something completely random.
+                    </span>
+
+                </label>
+
+            </div>
+
+
+
+            <!-- QUESTION 4 -->
+
+            <div class="quiz-question">
+
+                <h3>
+                    04. A mysterious box appears in front of you. What do you hope is inside?
+                </h3>
+
+
+                <label>
+
+                    <input
+                        type="radio"
+                        name="q4"
+                        value="curious"
+                    >
+
+                    <span>
+                        🔎 A secret message or hidden story.
+                    </span>
+
+                </label>
+
+
+                <label>
+
+                    <input
+                        type="radio"
+                        name="q4"
+                        value="creator"
+                    >
+
+                    <span>
+                        🎨 Something beautiful or unusual.
+                    </span>
+
+                </label>
+
+
+                <label>
+
+                    <input
+                        type="radio"
+                        name="q4"
+                        value="solver"
+                    >
+
+                    <span>
+                        🧩 A puzzle that needs solving.
+                    </span>
+
+                </label>
+
+
+                <label>
+
+                    <input
+                        type="radio"
+                        name="q4"
+                        value="observer"
+                    >
+
+                    <span>
+                        🌙 Something mysterious that makes me wonder.
+                    </span>
+
+                </label>
+
+
+                <label>
+
+                    <input
+                        type="radio"
+                        name="q4"
+                        value="experimenter"
+                    >
+
+                    <span>
+                        ⚡ Something completely unexpected!
+                    </span>
+
+                </label>
+
+            </div>
+
+
+
+            <!-- QUESTION 5 -->
+
+            <div class="quiz-question">
+
+                <h3>
+                    05. If you could create your own little world, what would it have?
+                </h3>
+
+
+                <label>
+
+                    <input
+                        type="radio"
+                        name="q5"
+                        value="curious"
+                    >
+
+                    <span>
+                        🔎 Hidden places waiting to be discovered.
+                    </span>
+
+                </label>
+
+
+                <label>
+
+                    <input
+                        type="radio"
+                        name="q5"
+                        value="creator"
+                    >
+
+                    <span>
+                        🎨 Beautiful things I imagined myself.
+                    </span>
+
+                </label>
+
+
+                <label>
+
+                    <input
+                        type="radio"
+                        name="q5"
+                        value="solver"
+                    >
+
+                    <span>
+                        🧩 Interesting challenges and mysteries.
+                    </span>
+
+                </label>
+
+
+                <label>
+
+                    <input
+                        type="radio"
+                        name="q5"
+                        value="observer"
+                    >
+
+                    <span>
+                        🌙 Peaceful places where I can just be.
+                    </span>
+
+                </label>
+
+
+                <label>
+
+                    <input
+                        type="radio"
+                        name="q5"
+                        value="experimenter"
+                    >
+
+                    <span>
+                        ⚡ Something different around every corner.
+                    </span>
+
+                </label>
+
+            </div>
+
+
+
+            <button
+                id="calculateExplorer"
+                class="primary-button"
+            >
+                REVEAL MY RESULT ✦
+            </button>
+
+
+            <div
+                id="explorerResult"
+                class="explorer-result"
+            ></div>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ======================================================
+         DECODE SECTION
+         ====================================================== -->
+
+    <section
+        id="decodeSection"
+        class="experiment-section"
+    >
+
+        <button
+            id="backFromDecode"
+            class="back-button"
+        >
+            ← Back to Lab
+        </button>
+
+
+        <div class="experiment-header">
+
+            <p class="eyebrow">
+                DECODE
+            </p>
+
+            <h2>
+                Crack the Code
+            </h2>
+
+            <p>
+                The Lab has scrambled a few words.
+                 Can you put them back together?
+            </p>
+
+        </div>
+
+
+
+        <div class="decode-game">
+
+
+            <!-- GAME STATUS -->
+
+            <div class="decode-status">
+
+                <div class="status-item">
+
+                    <span>
+                        LEVEL
+                    </span>
+
+                    <strong id="decodeLevel">
+                        1
+                    </strong>
+
+                </div>
+
+
+                <div class="status-item">
+
+                    <span>
+                        SCORE
+                    </span>
+
+                    <strong id="decodeScore">
+                        0
+                    </strong>
+
+                </div>
+
+
+                <div class="status-item">
+
+                    <span>
+                        WORD
+                    </span>
+
+                    <strong>
+
+                        <span id="currentWordNumber">
+                            1
+                        </span>
+
+                        /5
+
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- LEVEL HEADING -->
+
+            <div class="level-heading">
+
+                <p id="levelLabel">
+                    LEVEL 1
+                </p>
+
+                <h3 id="levelTitle">
+                    Warm Up
+                </h3>
+
+            </div>
+
+
+
+            <!-- JUMBLE -->
+
+            <div class="jumble-card">
+
+                <p class="small-label">
+                    UNSCRAMBLE THIS
+                </p>
+
+
+                <div
+                    id="jumbleWord"
+                    class="jumble-word"
+                >
+                    E F C A
+                </div>
+
+
+                <p
+                    id="wordHint"
+                    class="word-hint"
+                >
+                    Hint: A place where you can enjoy a drink.
+                </p>
+
+            </div>
+
+
+
+            <!-- ANSWER -->
+
+            <div class="answer-area">
+
+                <input
+                    type="text"
+                    id="decodeAnswer"
+                    placeholder="Type your answer..."
+                    autocomplete="off"
+                >
+
+
+                <button
+                    id="checkDecode"
+                    class="primary-button"
+                >
+                    DECODE ✦
+                </button>
+
+            </div>
+
+
+
+            <!-- FEEDBACK -->
+
+            <div
+                id="decodeFeedback"
+                class="decode-feedback"
+            ></div>
+
+
+
+            <!-- NEXT WORD -->
+
+            <button
+                id="nextWord"
+                class="secondary-button"
+                style="display: none;"
+            >
+                NEXT WORD →
+            </button>
+
+
+
+            <!-- LEVEL COMPLETE -->
+
+            <div
+                id="levelComplete"
+                class="level-complete"
+                style="display: none;"
+            >
+
+                <p class="result-type">
+                    LEVEL COMPLETE ✦
+                </p>
+
+
+                <h3 id="levelCompleteTitle">
+                    Well decoded.
+                </h3>
+
+
+                <p id="levelCompleteText">
+                    You cracked all the words in this level.
+                </p>
+
+
+                <button
+                    id="nextLevel"
+                    class="primary-button"
+                >
+                    NEXT LEVEL →
+                </button>
+
+            </div>
+
+
+
+            <!-- FINAL RESULT -->
+
+            <div
+                id="decodeFinal"
+                class="decode-final"
+                style="display: none;"
+            >
+
+                <p class="result-type">
+                    LAB DECODED ✦
+                </p>
+
+
+                <div class="final-score">
+
+                    <span id="finalScore">
+                        0
+                    </span>
+
+                </div>
+
+
+                <h3 id="finalRank">
+                    Sharp Mind
+                </h3>
+
+
+                <p id="finalMessage">
+                    You cracked the Lab.
+                </p>
+
+
+                <button
+                    id="restartDecode"
+                    class="primary-button"
+                >
+                    PLAY AGAIN ↻
+                </button>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ======================================================
+         PLAY — PATTERN ROOM
+         ====================================================== -->
+
+<section
+    id="playSection"
+    class="experiment-section"
+>
+
+    <button
+        id="backFromPlay"
+        class="back-button"
+    >
+        ← Back to Lab
+    </button>
+
+
+    <div class="experiment-header">
+
+        <p class="eyebrow">
+            PLAY
+        </p>
+
+        <h2>
+            Pattern Room
+        </h2>
+
+        <p>
+            Something is missing.
+            Can you figure out what comes next?
+        </p>
+
+    </div>
+
+
+
+    <div class="pattern-game">
+
+
+        <!-- ==================================================
+             GAME STATUS
+             ================================================== -->
+
+        <div class="pattern-status">
+
+            <div class="status-item">
+
+                <span>
+                    LEVEL
+                </span>
+
+                <strong>
+
+                    <span id="patternLevel">
+                        1
+                    </span>
+
+                    /10
+
+                </strong>
+
+            </div>
+
+
+            <div class="status-item">
+
+                <span>
+                    SCORE
+                </span>
+
+                <strong id="patternScore">
+                    0
+                </strong>
+
+            </div>
+
+
+            <div class="status-item">
+
+                <span>
+                    STREAK
+                </span>
+
+                <strong id="patternStreak">
+                    0
+                </strong>
+
+            </div>
+
+        </div>
+    
+  <div class="pattern-progress">
+
+    <div class="pattern-progress-top">
+
+        <span>
+            Challenge Progress
+        </span>
+
+        <span id="patternProgressText">
+            1 / 10
+        </span>
+
+    </div>
+
+    <div class="pattern-progress-track">
+
+        <div
+            id="patternProgressBar"
+            class="pattern-progress-bar"
+        ></div>
+
+    </div>
+
+</div>
+
+
+        <!-- ==================================================
+             PATTERN CARD
+             ================================================== -->
+
+        <div
+            id="patternCard"
+            class="pattern-card"
+        >
+
+            <p class="small-label">
+                FIND WHAT COMES NEXT
+            </p>
+
+
+            <div
+                id="patternSequence"
+                class="pattern-sequence"
+            >
+                2 → 4 → 8 → 16 → ?
+            </div>
+
+
+            <p
+                id="patternHint"
+                class="pattern-hint"
+            >
+                Look carefully. There is a connection.
+            </p>
+
+        </div>
+
+
+
+        <!-- ==================================================
+             ANSWER OPTIONS
+             ================================================== -->
+
+        <div
+            id="patternOptions"
+            class="pattern-options"
+        >
+
+            <button class="pattern-option">
+                24
+            </button>
+
+            <button class="pattern-option">
+                28
+            </button>
+
+            <button class="pattern-option">
+                32
+            </button>
+
+            <button class="pattern-option">
+                36
+            </button>
+
+        </div>
+
+
+
+        <!-- ==================================================
+             FEEDBACK
+             ================================================== -->
+
+        <div
+            id="patternFeedback"
+            class="pattern-feedback"
+        ></div>
+
+    <div id="patternComboMessage" class="pattern-combo-message"></div>
+
+
+        <!-- ==================================================
+             NEXT LEVEL
+             ================================================== -->
+
+        <button
+            id="nextPattern"
+            class="primary-button"
+            style="display: none;"
+        >
+            NEXT PATTERN →
+        </button>
+
+
+
+        <!-- ==================================================
+             FINAL RESULT
+             ================================================== -->
+
+        <div
+            id="patternFinal"
+            class="pattern-final"
+            style="display: none;"
+        >
+
+            <p class="result-type">
+                PATTERN ROOM COMPLETE ✦
+            </p>
+
+
+            <div class="pattern-final-score">
+
+                <span id="finalPatternScore">
+                    0
+                </span>
+
+                <small>
+                    /10
+                </small>
+
+            </div>
+
+
+            <h3 id="patternRank">
+                Pattern Seeker
+            </h3>
+
+
+            <p id="patternFinalMessage">
+                You spotted some interesting connections.
+            </p>
+
+
+            <button
+                id="patternRestart"
+                class="primary-button"
+            >
+                PLAY AGAIN ↻
+            </button>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+    <!-- ======================================================
+         LEAVE A NOTE
+         ====================================================== -->
+
+   <section
+    id="noteSection"
+    class="experiment-section"
+>
+
+    <button
+        id="backFromNote"
+        class="back-button"
+    >
+        ← Back to Lab
+    </button>
+
+
+    <div class="experiment-header">
+
+        <p class="eyebrow">
+            LEAVE A NOTE
+        </p>
+
+        <h2>
+            Leave something behind.
+        </h2>
+
+        <p>
+            You don't need perfect words.
+            Just leave something that feels like you.
+        </p>
+
+    </div>
+
+
+    <!-- ==================================================
+     CUSTOM LEAVE A NOTE FORM
+     ================================================== -->
+
+<div class="note-container">
+  
+<div id="noteEnvelope" class="note-envelope">
+
+        <div class="envelope-body">
+
+            <div class="envelope-flap"></div>
+
+            <div class="envelope-paper">
+                <span>Leave a little note ✦</span>
+            </div>
+
+        </div>
+
+        <button
+            id="openEnvelope"
+            class="envelope-button"
+            type="button"
+        >
+            Open the envelope
+        </button>
+
+    </div>
+
+
+    <div class="note-form-card">
+
+        <div class="note-intro">
+
+            <span class="note-symbol">
+                ✦
+            </span>
+
+            <h3>
+                A little note for Mahrookh
+            </h3>
+
+            <p>
+                No perfect words needed.
+                Just leave whatever comes to mind.
+            </p>
+
+        </div>
+
+
+        <!-- NAME -->
+
+        <div class="note-field">
+
+            <label for="noteName">
+                YOUR NAME
+            </label>
+
+            <input
+                type="text"
+                id="noteName"
+                placeholder="Your name (optional)"
+                maxlength="40"
+            >
+
+        </div>
+
+
+        <!-- ROLE -->
+
+        <div class="note-field">
+
+            <label for="noteRole">
+                YOU ARE
+            </label>
+
+            <select id="noteRole">
+
+                <option value="">
+                    Just Curious
+                </option>
+
+                <option value="Friend">
+                    A Friend
+                </option>
+
+                <option value="Classmate">
+                    A Classmate
+                </option>
+
+                <option value="Teacher">
+                    A Teacher
+                </option>
+
+                <option value="Visitor">
+                    A Visitor
+                </option>
+
+            </select>
+
+        </div>
+
+
+        <!-- MESSAGE -->
+
+        <div class="note-field">
+
+            <label for="noteMessage">
+                YOUR NOTE
+            </label>
+
+            <textarea
+                id="noteMessage"
+                placeholder="Write something for Mahrookh..."
+                maxlength="500"
+                rows="6"
+            ></textarea>
+
+            <div class="note-counter">
+                <span id="noteCharCount">0</span>/500
+            </div>
+
+        </div>
+
+
+        <!-- FEEDBACK -->
+
+        <p
+            id="noteFeedback"
+            class="note-feedback"
+        ></p>
+
+
+        <!-- SEND -->
+
+        <button
+            id="sendNote"
+            class="primary-button"
+            type="button"
+        >
+            SEND NOTE ✦
+        </button>
+
+    </div>
+
+
+    <!-- ==================================================
+         SUCCESS MESSAGE
+         ================================================== -->
+
+    <div
+        id="noteSuccess"
+        class="note-success"
+        style="display: none;"
+    >
+
+        <div class="success-symbol">
+            ✦
+        </div>
+
+        <p class="result-type">
+            NOTE RECEIVED
+        </p>
+
+        <h3>
+            Thank you for leaving something behind. ♡
+        </h3>
+
+        <p>
+            Your little note has safely reached Mahrookh.
+        </p>
+
+        <button
+            id="writeAnotherNote"
+            class="secondary-button"
+            type="button"
+        >
+            WRITE ANOTHER NOTE
+        </button>
+
+    </div>
+
+</div>
+    <!-- ======================================================
+         JAVASCRIPT
+         ====================================================== -->
+
+    <script src="script.js"></script>
+
+ 
+</body>
+
+</html>
